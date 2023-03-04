@@ -1,0 +1,5 @@
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache

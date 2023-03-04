@@ -1,0 +1,12 @@
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\bin\Debug\net6.0\Domain.dll
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\bin\Debug\net6.0\Domain.pdb
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\obj\Debug\net6.0\Domain.dll
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\obj\Debug\net6.0\Domain.pdb
+D:\CsBook\AseguradorasSystem\backend\Backend\Domain\obj\Debug\net6.0\ref\Domain.dll
