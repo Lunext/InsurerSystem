@@ -8,8 +8,7 @@ namespace Backend.Shared;
 public class AddAuthorizationHeaderParameterFilter
     :IOperationFilter
 {
-    private readonly string apiKey; 
-
+   
     
 
     public void Apply(OpenApiOperation operation, OperationFilterContext context)

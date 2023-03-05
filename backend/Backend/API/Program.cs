@@ -28,9 +28,7 @@ builder.Services.AddSwaggerGen(doc =>
 
     doc.OperationFilter<AddAuthorizationHeaderParameterFilter>();
 
-    //builder.Services.AddAuthentication("ApiKey")
-    // .AddScheme<AuthenticationSchemeOptions, >("ApiKey", options => { });
-
+   
 
 });
 
@@ -56,7 +54,7 @@ if (app.Environment.IsDevelopment())
     
     app.UseSwaggerUI(doc =>
     {
-       // doc.OperationFilter<HeaderParameters>();
+      
         doc.SwaggerEndpoint("/swagger/v1/swagger.json", "" +
             "Insurer Service API Version 1");
         doc.SupportedSubmitMethods(new[]
