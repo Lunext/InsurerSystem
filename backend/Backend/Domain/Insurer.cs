@@ -9,6 +9,8 @@ public class Insurer
 
     public string? Name { get; set; }
 
+ 
+    
     public decimal Commission { get; set;}
 
     public bool IsApproved { get; set;}

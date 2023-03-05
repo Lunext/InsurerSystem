@@ -3,3 +3,15 @@ D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\Busi
 D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
 D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
 D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\bin\Debug\net6.0\Domain.dll
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\bin\Debug\net6.0\Persistence.dll
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\bin\Debug\net6.0\Persistence.pdb
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+D:\CsBook\AseguradorasSystem\backend\Backend\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
