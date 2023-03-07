@@ -1,7 +1,9 @@
 using Backend.Shared;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerUI;
 
@@ -10,10 +12,20 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddCors(opt => {
+    opt.AddPolicy("CorsPolicy", policy => {
+        policy.AllowAnyMethod()
+        .AllowAnyHeader()
+        .AllowCredentials()
+        .WithOrigins("http://127.0.0.1:5173");
+    });
+});
+
 
 builder.Services.AddScoped<HeaderMiddleware>();
 builder.Services.AddInsurerContext();
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(doc =>
@@ -32,6 +44,7 @@ builder.Services.AddSwaggerGen(doc =>
 
 });
 
+
 //To inject the repository
 builder.Services.AddScoped<IInsurerRepository, InsurerRepository>();
 //To inject the fluent validation the entries
@@ -39,7 +52,28 @@ builder.Services.AddScoped<IValidator<Insurer>, InsurerValidator>();
 
 
 
+
+
+
 var app = builder.Build();
+
+//app.Use(async (context, next) =>
+//{
+//    context.Response.Headers.Add("Content-Type", "text/javascript");
+//    await next();
+//});
+
+app.UseCors("CorsPolicy");
+//app.UseCors(configurePolicy: options =>
+//{
+
+
+////ptions.AllowAnyOrigin();
+//    options.WithMethods("GET", "POST", "PUT", "DELETE");
+//    //options.WithOrigins(
+//       // "http://127.0.0.1:5173");
+//    options.WithHeaders("Authorization");
+//});
 
 
 
